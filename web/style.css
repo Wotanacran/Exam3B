@@ -1,48 +1,40 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Oct 27, 2015, 3:48:44 PM
-    Author     : Tyler
-*/
-
 table{
-    border: solid white;
+    border: solid #00008B;
 }
 
 table{
     
-    background-color: white
+    background-color: #00008B;
 }
 
 th{
-    background-color: #FFFF99;
-    color: #696969;
+    background-color: #006400;
+    color: #00FFFF;
     padding: 5px;
 }
 
 td{
-    background-color: #F08080;
-    color: white;
+    text-align: center;
+    background-color: #6495ED;
+    color: black;
     padding: 5px;
 }
 td#delete{
-    color: #696969;
+    color: black;
 }
 
 td#update{
-    color: #696969;
+    color: black;
 }
 
+
 a:link.delete{
-    color: #696969;
+    color: #006400;
     text-decoration: none;
 }
 
 a:link.update{
-    color: #696969;
+    color: #006400;
     text-decoration: none;
 }
 
@@ -50,14 +42,14 @@ a:hover{
     font-weight: bold;
 }
 
-body{
-    background-color: #D2B48C;
+a:visited{
+    color: black;
 }
 
 fieldset{
-    width: 350px;
-    border: solid white;
-    background-color: #F08080;
+    width: 450px;
+    border: solid #00008B;
+    background-color: #6495ED;
 }
 
 legend{
@@ -65,25 +57,32 @@ legend{
     text-align: center;
     font-size: 20px;
     font-weight: bold;
-    color: #696969;
-    background-color: #FFFF99;
+    color: #00FFFF;
+    background-color: #006400;
     padding-left: 10px;
     padding-right: 10px;
+    width: 400px;
+    
 }
 
 label.field{
     font-weight: bold;
     float: left;
     text-align: right;
-    width: 125px;
-    background-color: #F08080;
-    color: white;
+    width: 150px;
+    color: #00008B;
     padding: 1px;
 }
 
-input.text{
-    width: 200px;
+input[type=text],
+input[type=email],
+input[type=number]
+{
+    width: 150px;
 }
+
+input.sumbit{width:25px;}
+input.reset{width:25px;}
 
 .center{
     text-align: center;
@@ -91,20 +90,16 @@ input.text{
 
 input[readonly] {background-color: gray}
 
-
-
-
-body 
+body
 {
-	
+    background-color: #B0C4DE;
 }
 
 .wrap
 {
+    color:#00008B;
 	text-align:right;
-	width: 90%;
-	margin: 0 auto;
-	border: 1px solid black;
+	width: 95%;
 	margin-top: 25px;
 }
 
@@ -116,7 +111,6 @@ body
 
 .headerImg
 {
-	width:275px;
 	float:left;
 }
 
@@ -124,7 +118,7 @@ body
 {
 	height:105px;
 	padding-top:50px;
-	padding-left:25px;
+	padding-left:100px;
 	float:left;
 }
 
@@ -139,10 +133,6 @@ body
 	text-align: left;
 	padding: 25px;
 }
-
-
-
-
 
 .navcontainer { text-align:left; margin-left: 30px; }
 
@@ -182,4 +172,3 @@ body
  display: block;
  float: left;
  }
-
